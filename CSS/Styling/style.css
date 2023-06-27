@@ -35,3 +35,8 @@ img {
 .h-style {
     color: #13222c;
 }
+
+main{
+    border: 5px dashed #ff6060;
+    border-radius: 50px 50px 0px 0px;
+}
