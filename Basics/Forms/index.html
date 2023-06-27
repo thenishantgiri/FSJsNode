@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <header>
+            <h3>Already Registered? <u>LOGIN</u> now</h3>
+            <form action="" method="post">
+                <label for="regEmail">Email </label>
+                <input type="email" id="regEmail" placeholder="abc@gmail.com" required>
+                <label for="regPass">Password</label>
+                <input type="password" id="regPass" required>
+                <button type="submit">Login</button>
+            </form>
+        </header>
+
+        <main>
+            <div>
+                <a href="https://google.com">
+                    <h3>Coding Ninjas Blogs</h3>
+                </a>
+
+                <figure style="margin-left: 0; width: 100%;">
+                    <img src="https://plus.unsplash.com/premium_photo-1667112532367-27ced778afc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                        alt="">
+                </figure>
+            </div>
+
+            <div>
+                <h3><u>REGISTRATION</u></h3>
+
+                <form action="">
+                    <table>
+                        <tr>
+                            <td><label for="fName">First Name:</label></td>
+                            <td><input type="text" id="fName" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="LName">Last Name:</label></td>
+                            <td><input type="text" id="LName"></td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="3">Current Address: </td>
+                            <td><label for="flatNum">Flat No./House No.</label></td>
+                            <td><input type="text" id="flatNum"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="locality">Locality</label></td>
+                            <td><input type="text" id="locality"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="city">City</label></td>
+                            <td><input type="text" id="city"></td>
+                        </tr>
+
+
+                        <tr>
+                            <td colspan="4">
+                                <label for="address"><b>Is Current Address and Permanent Address same?</b></label>
+                                <input type="radio" name="address" value="yes"> Yes</input>
+                                <input type="radio" name="address" value="no"> No</input>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <label for="email">Email:</label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="pass">Password:</label>
+                            </td>
+                            <td>
+                                <input type="password" name="pass" id="pass">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+    </body>
+
+</html>
