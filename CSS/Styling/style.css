@@ -121,3 +121,24 @@ button[type="submit"] {
   word-spacing: 3px;
   margin-top: 0px;
 }
+
+.search-btn {
+  padding: 0.5rem;
+  border: 0;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  transition: transform 0.7s ease-in-out;
+  background-color: #1a1a1a;
+  color: black;
+  border-radius: 2px 5px 0px 7px;
+}
+
+#search-bar {
+  display: inline;
+}
+
+.search-btn:hover {
+  transform: rotate(360deg);
+}
