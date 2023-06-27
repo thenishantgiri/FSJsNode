@@ -12,7 +12,8 @@ img {
     color: #1a1a1a;
     font-weight: bold;
     font-family: sans-serif;
-
+    line-height: 1.25;
+    text-decoration: none;
 }
 
 #site-title a:hover {
@@ -27,18 +28,30 @@ img {
 #blog-header h1 {
     color: #13222c;
     font-family: sans-serif;
+    font-size: 3.2rem;
 }
 
 #blog-content {
     width: 90%;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    word-spacing: 1px;
 }
 
 .h-style {
     color: #13222c;
 }
 
-main{
+/* main{
     border: 5px dashed #ff6060;
     border-radius: 50px 50px 0px 0px;
     border-left: 0px;
+} */
+
+.sources a{
+    text-decoration: none;
+}
+
+.sources a:hover{
+    color: #1a1a1a;
 }
