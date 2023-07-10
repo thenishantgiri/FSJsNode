@@ -85,6 +85,23 @@ body {
   transform: scale(1.5);
 }
 
+/*Section Classes*/
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section:nth-child(2n) {
+  background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+  background-color: white;
+}
+
 /* About Section */
 #about {
   height: auto;
