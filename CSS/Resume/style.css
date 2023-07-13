@@ -92,6 +92,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* align-self: center; */
 }
 
 section:nth-child(2n) {
@@ -100,6 +101,20 @@ section:nth-child(2n) {
 
 section:nth-child(2n + 1) {
   background-color: white;
+}
+
+.section-heading {
+  width: auto;
+  padding: 20px 10px 10px;
+  font-weight: 400;
+}
+
+.section-heading span {
+  font-size: 40px;
+  color: #2857a4;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 0.5rem;
 }
 
 /* About Section */
@@ -137,7 +152,108 @@ section:nth-child(2n + 1) {
   font-size: 1.1rem;
 }
 
+/* Skills Section */
+.skills-display {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-progress {
+  width: 7rem;
+  height: 1.6rem;
+  background-color: lightgray;
+  border-radius: 0.8rem;
+}
+
+.skill-progress > div {
+  /* below border radius makes .skill-progress > div circular */
+  border-radius: 20px 0px 0px 20px;
+  /* to perfectly align text in the center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-name span {
+  color: white;
+  font-size: 1rem;
+}
+
+/* Common Margin Classes */
+.mb75px {
+  margin-bottom: 75px;
+}
+
+.mb25px {
+  margin-bottom: 25px;
+}
+
+/* Common Color Classes */
 .text-highlight {
   color: #2857a4;
   font-weight: 600;
+}
+
+.mb-blue {
+  background-color: #005697;
+}
+
+.mb-java {
+  background-color: #f1931c;
+}
+
+.mb-javascript {
+  background-color: #efd81b;
+}
+
+.mb-node {
+  background-color: #046e01;
+}
+
+.mb-css {
+  background-color: #244bdd;
+}
+
+.mb-html {
+  background-color: #dc4a25;
+}
+
+.mb-react {
+  background-color: #5fd3f3;
+}
+
+.mb-next-js {
+  background-color: #171717;
+}
+
+/* Percent Classes */
+.eighty-five-percent {
+  width: 85%;
+  height: inherit;
+}
+/* Next.js */
+/* RNative */
+.fifty-five-percent {
+  width: 55%;
+  height: inherit;
+}
+/* Java */
+/* Node */
+.eighty-percent {
+  width: 80%;
+  height: inherit;
+}
+/* JS */
+/* React */
+.seventy-percent {
+  width: 70%;
+  height: inherit;
+}
+/* HTML */
+/* CSS */
+.ninety-percent {
+  width: 90%;
+  height: inherit;
 }
